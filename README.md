@@ -5,3 +5,17 @@
 모델링: 한공대 디자인학과 팀이 제공
 
 Unity, Plastic SCM, Notion, Figma 
+
+
+### 1차 발표
+https://youtu.be/98YlPlmtZRo
+https://youtu.be/y-Nw5zfuemU
+
+
+### 2차 발표
+https://youtu.be/ov5JKkmc-Ro
+
+
+### 3차 발표
+https://youtu.be/VlPWP57VYx0
+
