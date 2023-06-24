@@ -9,6 +9,7 @@ Unity, Plastic SCM, Notion, Figma
 
 ### 1차 발표
 https://youtu.be/98YlPlmtZRo
+
 https://youtu.be/y-Nw5zfuemU
 
 
