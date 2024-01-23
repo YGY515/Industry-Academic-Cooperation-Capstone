@@ -1,7 +1,7 @@
 # Industry-Academic-Cooperation-Capstone
 2023. 1학기 / 산학협력캡스톤(11월 졸업작품 전시 진행, 장려상 수상)
 
-- 한이음 프로젝트와 같이 진행 중 - 
+- 한이음 ICT멘토링 프로젝트와 같이 진행함 - 
 모델링: 한공대 디자인학과 팀이 제공
 
 Unity, Plastic SCM, Notion, Figma 
