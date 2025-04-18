@@ -5,42 +5,42 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ChangeScene : MonoBehaviour //¾À ÀÌµ¿ÇÏ´Â ÇÔ¼öµé ¸ğ¾Æ³Ö¾ú¾î¿ä
+public class ChangeScene : MonoBehaviour //ì”¬ ì´ë™í•˜ëŠ” í•¨ìˆ˜ë“¤ ëª¨ìŒ
 {
     public Image image;
     public GameObject Loading;
 
-    public void SignUpChange() //È¸¿ø°¡ÀÔÃ¢ ÀÌµ¿
+    public void SignUpChange() //íšŒì›ê°€ì…ì°½ ì´ë™
     {
         SceneManager.LoadScene("Sign_Up");
     }
 
 
-    public void LoginChange() //·Î±×ÀÎÃ¢ ÀÌµ¿, È¸¿ø°¡ÀÔ ÈÄ ·Î±×ÀÎÃ¢À¸·Î ÀÌµ¿ÇÕ´Ï´Ù
+    public void LoginChange() //ë¡œê·¸ì¸ì°½ ì´ë™, íšŒì›ê°€ì… í›„ ë¡œê·¸ì¸ì°½ìœ¼ë¡œ ì´ë™í•©ë‹ˆë‹¤
     {
         SceneManager.LoadScene("Start_Login");
     }
 
-    public void LobbyChange() //·Î±×ÀÎ ÈÄ ·Îºñ·Î ÀÌµ¿ÇÕ´Ï´Ù
+    public void LobbyChange() //ë¡œê·¸ì¸ í›„ ë¡œë¹„ë¡œ ì´ë™í•©ë‹ˆë‹¤
     {
         SceneManager.LoadScene("Lobby");
     }
 
-    public void PalaceChange() //±Ã±È ÀÌµ¿
+    public void PalaceChange() //ê¶ê¶ ì´ë™
     {
         image.gameObject.SetActive(true);
         StartCoroutine(Fadeout());
         Invoke("PalaceSceneChange", 4.0f);
     }
 
-    public void VilliageChange() //¸¶À» ÀÌµ¿
+    public void VilliageChange() //ë§ˆì„ ì´ë™
     {
         image.gameObject.SetActive(true);
         StartCoroutine(Fadeout());
         Invoke("VilliageSceneChange", 4.0f);
     }
 
-     public void OndalChange() //¿Â´ŞÁı ÀÌµ¿
+     public void OndalChange() //ì˜¨ë‹¬ì§‘ ì´ë™
 
     { 
         image.gameObject.SetActive(true);
@@ -51,7 +51,7 @@ public class ChangeScene : MonoBehaviour //¾À ÀÌµ¿ÇÏ´Â ÇÔ¼öµé ¸ğ¾Æ³Ö¾ú¾î¿ä
 
 
 
-    //ÀÌÇÏ´Â ¸Ê ÀÌµ¿, ÆäÀÌµå¾Æ¿ô ÄÚ·çÆ¾
+    //ì´í•˜ëŠ” ë§µ ì´ë™, í˜ì´ë“œì•„ì›ƒ ì½”ë£¨í‹´
 
     void OndalSceneChange()
     {
